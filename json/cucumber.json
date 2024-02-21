@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26961291000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User able to open browser",
+            "match": {
+              "location": "RegisterStepDefinitions.user_able_to_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3509489200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter Url",
+            "match": {
+              "location": "RegisterStepDefinitions.enter_Url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4273532601,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Register Link",
+            "match": {
+              "location": "RegisterStepDefinitions.user_click_on_Register_Link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "NopCommerce Valid Register Test",
+        "description": "",
+        "id": "nopcommerce-register;nopcommerce-valid-register-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1582190500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter firstname and lastname",
+            "match": {
+              "location": "RegisterStepDefinitions.user_enter_firstname_and_lastname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160761701,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter Email",
+            "match": {
+              "location": "RegisterStepDefinitions.user_enter_Email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79132500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter Company name",
+            "match": {
+              "location": "RegisterStepDefinitions.user_enter_Company_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120127100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter password",
+            "match": {
+              "location": "RegisterStepDefinitions.user_enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131336201,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Confirm password",
+            "match": {
+              "location": "RegisterStepDefinitions.user_Confirm_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1119523201,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on register button",
+            "match": {
+              "location": "RegisterStepDefinitions.user_click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5702178600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User close the browser",
+            "match": {
+              "location": "RegisterStepDefinitions.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NopCommerce Register",
+    "description": "",
+    "id": "nopcommerce-register",
+    "keyword": "Feature",
+    "uri": "C:/Users/Jalpankit/IdeaProjects/BDDFrameWork/src/test/resources/Features/Register.feature"
+  }
+]
